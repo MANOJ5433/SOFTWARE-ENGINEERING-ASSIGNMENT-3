@@ -1,0 +1,22 @@
+# Secrets and local configuration
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Local databases and generated runtime data
+*.db
+pgdata/
+
+# Generated evidence snapshots (keep screenshots in docs/evidence/ if you want them versioned)
+evidence/*.json
+evidence/*.log
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

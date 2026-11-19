@@ -1,0 +1,6 @@
+# Keep shell and SQL files with LF endings so Linux containers can run them on Windows checkouts.
+*.sh text eol=lf
+*.sql text eol=lf
+*.py text eol=lf
+*.conf text eol=lf
+*.ps1 text eol=crlf
